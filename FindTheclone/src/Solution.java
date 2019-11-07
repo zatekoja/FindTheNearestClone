@@ -78,7 +78,6 @@ public class Solution {
 
         //bfs on adjencency matrix
         int bfs(int start) {
-            int min = Integer.MAX_VALUE;
             boolean[] visited = new boolean[this.V];
             Queue<Integer> q = new LinkedList<>();
             int distance = 0;
@@ -105,3 +104,5 @@ public class Solution {
     }
     //for more questions just reach out to me!
 }
+
+
